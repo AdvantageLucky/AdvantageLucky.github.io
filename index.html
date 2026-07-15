@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		<link rel="stylesheet" href="style.css">
+
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://advantagelucky.github.io">
+		<meta property="og:title" content="AdvantageLucky's Portfolio">
+		<meta property="og:description" content="AdvantageLucky's projects and personal information">
+
+		<title>AdvantageLucky's Portfolio</title>
+	</head>
+	<body>
+		<table class="header">
+			<tr>
+				<td colspan="2" rowspan="2" class="width-auto">
+					<h1 class="title">Jose de Jesus Mendoza Reyes</h1>
+					<span class="subtitle">CS Student @ BUAP FCC</span>
+				</td>
+				<th>Location</th>
+				<td class="width-min">Tlaxcala, MX</td>
+			</tr>
+			<tr>
+				<th>Updated</th>
+				<td class="width-min"><time style="white-space: pre;">2026-07-15</time></td>
+			</tr>
+			<tr>
+				<th class="width-min">Github</th>
+				<td class="width-auto"><a href="https://github.com/AdvantageLucky"><cite>github.com/AdvantageLucky</cite></a></td>
+				<th class="width-min">CV</th>
+				<td><a href="cv.pdf"><cite>CV</cite></a></td>
+			</tr>
+		</table>
+
+		<h2 id="About">About</h2>
+
+		<p>Backend developer and computer science student at BUAP (GPA 9.18/10, class of 2027).</p>
+
+		<p>I build and ship real systems. During my social service at Museo Amparo I wrote an HR management system (Django, PostgreSQL) and ran everything it needed to live in production: Nginx, systemd, Gunicorn, and a CI/CD pipeline on a self-hosted GitHub Actions runner. The HR department uses it today.</p>
+
+		<p>I believe small, simple tools beat clever ones. Unix philosophy: do one thing well, compose, delete what you don't need. Currently studying machine learning and heading toward platform engineering.</p>
+
+		<ul>
+			<li><strong>Languages</strong>: Python, Go, SQL, Java, C</li>
+			<li><strong>Backend</strong>: Django, Django Ninja, Gin, GORM, REST, JWT</li>
+			<li><strong>Data</strong>: PostgreSQL, MySQL, MongoDB, Cassandra</li>
+			<li><strong>Infra</strong>: Linux (Arch, Ubuntu/Debian servers), Nginx, systemd, GitHub Actions</li>
+		</ul>
+
+		<h2 id="Projects">Projects</h2>
+
+		<table>
+			<thead>
+				<tr>
+					<th class="width-min">Project</th>
+					<th class="width-auto">What it is</th>
+					<th class="width-min">Stack</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="https://github.com/AdvantageLucky/URM-Simulator"><cite>URM-Simulator</cite></a></td>
+					<td>Hand-written compiler (lexer + LL(1) parser) and runtime for the Unlimited Register Machine, with step-by-step execution tracing, infinite-loop guard, and a GUI.</td>
+					<td>Python, Tkinter</td>
+				</tr>
+				<tr>
+					<td><a href="https://github.com/AdvantageLucky/Montecarlo-System"><cite>Montecarlo-System</cite></a></td>
+					<td>Distributed Monte Carlo simulation: a publisher fans out functions and scenarios, N consumers evaluate them safely (<code>ast</code>, no <code>eval</code>), a gRPC monitor aggregates results into a live dashboard.</td>
+					<td>Python, RabbitMQ, gRPC</td>
+				</tr>
+				<tr>
+					<td><a href="https://github.com/AdvantageLucky/Raices"><cite>Raices</cite></a></td>
+					<td>E-commerce marketplace for Mexican artisans: buyer/vendor/admin roles, cart and checkout with persisted orders, token-based password reset over email.</td>
+					<td>Laravel 13, PHP 8.4</td>
+				</tr>
+				<tr>
+					<td><cite>AUTO-nomia</cite></td>
+					<td>Self check-in kiosk backend for FEPRO 2026. Led development in a team of five: JWT auth with admin and kiosk-device principals, QR device provisioning, domain-oriented package layout. Code private (team project).</td>
+					<td>Go, Gin, GORM</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h2 id="Contact">Contact</h2>
+
+		<table>
+			<tbody>
+				<tr>
+					<th class="width-min">Email</th>
+					<td class="width-auto"><a href="mailto:jesichiko@gmail.com"><cite>jesichiko@gmail.com</cite></a></td>
+				</tr>
+				<tr>
+					<th class="width-min">Github</th>
+					<td class="width-auto"><a href="https://github.com/AdvantageLucky"><cite>github.com/AdvantageLucky</cite></a></td>
+				</tr>
+				<tr>
+					<th class="width-min">LinkedIn</th>
+					<td class="width-auto"><a href="https://linkedin.com/in/marchlotus"><cite>linkedin.com/in/marchlotus</cite></a></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
